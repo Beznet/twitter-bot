@@ -4,7 +4,7 @@ var Twitter = new twit(config);
 
 var retweet = function() {
     var params = {
-        q: '#outrun, #retro',  // REQUIRED
+        q: '#outrun',  // REQUIRED
         result_type: 'recent',
         lang: 'en'
     }
