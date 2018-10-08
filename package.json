@@ -1,15 +1,28 @@
 {
-  "name": "package",
+  "name": "twitter-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "8.10.0"
+  },
   "dependencies": {
     "graphql": "^14.0.2",
     "twit": "^2.2.11"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beznet/twitter-bot.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Beznet/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/Beznet/twitter-bot#readme",
+  "description": ""
 }
